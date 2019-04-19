@@ -1,0 +1,14 @@
+{
+  "name": "gwf/kafka-php",
+  "description": "Kafka-php is a pure PHP kafka client.",
+  "autoload": {
+    "psr-4": {
+      "Kafka\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "packagist.org": false
+    }
+  ]
+}
