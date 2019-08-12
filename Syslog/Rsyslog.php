@@ -23,14 +23,14 @@ class Rsyslog {
     /**
      * Severity（日志级别）
      */
-    const LOG_EMERG   = 0;
-    const LOG_ALERT   = 1;
-    const LOG_CRIT    = 2;
-    const LOG_ERR     = 3;
-    const LOG_WARNING = 4;
-    const LOG_NOTICE  = 5;
-    const LOG_INFO    = 6;
-    const LOG_DEBUG   = 7;
+    const LOG_EMERG   = 0; // system is unusable
+    const LOG_ALERT   = 1; // action must be taken immediately
+    const LOG_CRIT    = 2; // critical conditions
+    const LOG_ERR     = 3; // error conditions
+    const LOG_WARNING = 4; // warning conditions
+    const LOG_NOTICE  = 5; // normal but significant condition
+    const LOG_INFO    = 6; // informational messages
+    const LOG_DEBUG   = 7; // debug-level messages
 
     /**
      * 主机地址
