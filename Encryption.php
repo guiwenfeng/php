@@ -108,7 +108,7 @@ class Encryption {
         }
 
         if (!extension_loaded('openssl')) {
-            log_message('error', 'Encryption: Unable to find an available encryption driver.');
+            log_message('error', 'The openssl extension is required.');
         }
 
         if (!empty($params['key'])) {
